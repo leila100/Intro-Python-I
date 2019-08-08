@@ -16,7 +16,7 @@ automatically.
 # Example:
 
 import math
-from collections import Iterable
+import collections.abc
 
 
 def dist(a, b):
@@ -39,7 +39,7 @@ print("Distance is: {:.2f}".format(dist(a, b)))
 # YOUR CODE HERE
 def print_tuple(t):
     # prints all the values in a tuple
-    if isinstance(t, Iterable):
+    if isinstance(t, collections.abc.Iterable):
         for value in t:
             print(value)
     else:
