@@ -34,6 +34,3 @@ elif(len(args) == 3):
 else:
     str = "Please enter a maximum of 2 argument. Example: 14_cal.py [month] [year]"
 print(str)
-
-
-# for arg in sys.argv:
