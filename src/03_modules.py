@@ -17,7 +17,8 @@ for arg in sys.argv:
 
 # Print out the OS platform you're using:
 # YOUR CODE HERE
-print(f"os name: {os.name}")
+# print(f"os name: {os.name}")
+print(f"os platform: {sys.platform}")
 
 # Print out the version of Python you're using:
 # YOUR CODE HERE
